@@ -9,7 +9,19 @@
       "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
       "type": "sheet",
       "name": "bookstores"
+    },
+    {
+      "fileId": "1fqQvuXwHQba0cA7JCcQ1bAQUASj04zI5iRUA6vZ5i5Q",
+      "type": "sheet",
+      "name": "starters"
+    },
+    {
+      "fileId": "1OjX-CQdCI2j5C7vZ9pQT6C2sBnk-OhahrVAtq6ev1s4",
+      "type": "doc",
+      "name": "reviews"
     }
+
+
   ],
   "to_bake": [
     {
@@ -18,6 +30,13 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    },
+    {
+      "template": "bake-blog",
+      "data": "reviews",
+      "array": "posts",
+      "slug": "slug",
+      "path": "blog"
     }
   ]
 }

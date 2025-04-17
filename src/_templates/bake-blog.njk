@@ -1,0 +1,25 @@
+{% extends '_templates/base.njk' %}
+{% set relative_path = "../" %}
+{% from '_macros/prose.njk' import prose %}
+
+{% block page_title %}{{ title }}{% endblock %}
+
+{% block page_description %}{{ title }} Samantha's book reviews{% endblock %}
+
+{% block content %}
+  <article class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <img src="../img/target.jpg" alt="profile picture placeholder" class="img-fluid">
+        <p class="byline">By Samantha Natividad<br>
+        <span>Student by Day, Reader by Night</span></p>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <img src="../img/{{ image }}" alt="" class="img-fluid mb-4">
+        <h1>{{ title }}</h1>
+        {{ prose(review) }}
+      </div>
+    </div>
+  </article>
+{% endblock %}

@@ -1,0 +1,44 @@
+{
+  "posts": [
+    {
+      "slug": "2025-04-16",
+      "title": "Fourth Wing",
+      "author": "Rebecca Yarros",
+      "image": "fourthwing.jpg",
+      "review": [
+        {
+          "type": "text",
+          "value": "“I loved it as much as I did it the first time I read it, in fact I loved it more. Picked up on a lot of foreshadowing. Rebecca Yarros is a truly talented writer, the emotions I felt reading it were so genuine, I was fully immersed. The characters and the story are fire."
+        },
+        {
+          "type": "text",
+          "value": "I loved Xaden and Violet even more, hated Dain with passion, Tairn and Adarana continue to be badasses and Liam...I got no words, I love that guy.”"
+        }
+      ]
+    },
+    {
+      "slug": "2025-04-17",
+      "title": "The Love of My Afterlife",
+      "author": "Kirsty Greenwood",
+      "image": "loveofmyafterlfe.jpg",
+      "review": [
+        {
+          "type": "text",
+          "value": "“This story was a fast paced, entertaining, and cute read. The romcom aspect of the book was cute and fluffy. It was magical, sweet, and funny not to mention it has some of my favorite tropes. Found family is one of my favorite tropes and I absolutely adored the side characters: Mr. Yoon, Adel, Frida. They brought humor to the story and their characters were very loveable. I feel like the concept of this book was unique and done very well. This is my first book by this author but I can't wait to see whaat she has in store for readers in the future.”"
+        }
+      ]
+    },
+    {
+      "slug": "2025-04-18",
+      "title": "Throne of Glass",
+      "author": "Sarah J. Maas",
+      "image": "throneofglass.jpg",
+      "review": [
+        {
+          "type": "text",
+          "value": "“Caleana Sardothien, young woman assassin, is betrayed and sentenced to the salt mines of Endovier. After a year, however, she is given an opportunity: If she wins a contest to become the king's champion, she will be granted a four-year contract, working as an assassin for the empire she hates, at the end of which time she will be freed. After reading the premise of the book, I thought, \"Sign me up!\" After the first chapter, I knew I was in good hands. This book has plenty of mystery, magic, humor and romance -- a perfect brew for fans of good YA fantasy. If you liked Graceling, Grave Mercy, Shadow and Bone or other fantasies featuring strong female protagonists with scary good skills, I think you'll enjoy this quite a lot. And it's the first of a series!”"
+        }
+      ]
+    }
+  ]
+}
