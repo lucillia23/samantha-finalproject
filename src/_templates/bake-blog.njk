@@ -10,14 +10,12 @@
   <article class="container">
     <div class="row">
       <div class="col-sm-4">
-        <img src="../img/target.jpg" alt="profile picture placeholder" class="img-fluid">
-        <p class="byline">By Samantha Natividad<br>
-        <span>Student by Day, Reader by Night</span></p>
-        <hr class="d-sm-none">
+        <img src="../img/{{ image }}" alt=""class="img-fluid">
+        
       </div>
-      <div class="col-sm-8">
-        <img src="../img/{{ image }}" alt="" class="img-fluid mb-4">
+      <div class="col-sm-8 fluid">
         <h1>{{ title }}</h1>
+        <h5>by {{ author }}</h5>
         {{ prose(review) }}
       </div>
     </div>

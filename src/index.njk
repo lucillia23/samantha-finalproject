@@ -8,16 +8,16 @@
     <div class="col-12 col-md-8 col-lg-6">
         <h1>Welcome to Goodreads</h1>
         <p>When we want to take a break from reality and settle down with a good book, the first and hardest decision is choosing what book to read. From seafaring pirates and scheming faeries to clumsy college first loves and dark billionaire romances, I'd say I've read them all. I hope you enjoy reading my thoughts as much as I enjoyed each of these universes. As always, I'm happy to have you here.</p>
-    <ul>
+      
+      <h3>Samantha's Book Reviews</h3>
       {% for entry in reviews.posts %}
-        <li>
-          <div>{{ review.title }}</div>
-          <a href="blog/{{ post.slug }}.html">
-            <h5>{{ review.title }}</h5>
-          </a>
-        </li>
+          <div>
+            <a href="blog/{{ entry.slug }}.html">
+              <h5>{{ entry.title }}</h5>
+            </a>
+            <span><h6>{{ entry.author }}</h6></span>
+          </div>
       {% endfor %}
-    </ul>
     </div>
   </div>
 </div>
