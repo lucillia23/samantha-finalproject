@@ -1,0 +1,472 @@
+{
+  "catalog": [
+    {
+      "title": "The Ballad of Never After (Once Upon a Broken Heart, #2)",
+      "author": "Stephanie Garber",
+      "rating": 4.5,
+      "year_published": 2022
+    },
+    {
+      "title": "Once Upon a Broken Heart (Once Upon a Broken Heart, #1)",
+      "author": "Stephanie Garber",
+      "rating": 4.06,
+      "year_published": 2021
+    },
+    {
+      "title": "The Cheat Sheet (The Cheat Sheet, #1)",
+      "author": "Sarah       Adams",
+      "rating": 3.71,
+      "year_published": 2021
+    },
+    {
+      "title": "The Dixon Rule (Campus Diaries, #2)",
+      "author": "Elle Kennedy",
+      "rating": 4.17,
+      "year_published": 2024
+    },
+    {
+      "title": "The Dare (Briar U, #4)",
+      "author": "Elle Kennedy",
+      "rating": 3.75,
+      "year_published": 2020
+    },
+    {
+      "title": "The Legacy (Off-Campus, #5)",
+      "author": "Elle Kennedy",
+      "rating": 3.78,
+      "year_published": 2021
+    },
+    {
+      "title": "The Score (Off-Campus, #3)",
+      "author": "Elle Kennedy",
+      "rating": 4.15,
+      "year_published": 2016
+    },
+    {
+      "title": "The Play (Briar U, #3)",
+      "author": "Elle Kennedy",
+      "rating": 4.01,
+      "year_published": 2019
+    },
+    {
+      "title": "The Graham Effect (Campus Diaries, #1)",
+      "author": "Elle Kennedy",
+      "rating": 4.19,
+      "year_published": 2023
+    },
+    {
+      "title": "The Goal (Off-Campus, #4)",
+      "author": "Elle Kennedy",
+      "rating": 3.89,
+      "year_published": 2016
+    },
+    {
+      "title": "The Mistake (Off-Campus, #2)",
+      "author": "Elle Kennedy",
+      "rating": 3.98,
+      "year_published": 2015
+    },
+    {
+      "title": "The Chase (Briar U, #1)",
+      "author": "Elle Kennedy",
+      "rating": 3.86,
+      "year_published": 2018
+    },
+    {
+      "title": "The Risk (Briar U, #2)",
+      "author": "Elle Kennedy",
+      "rating": 4.22,
+      "year_published": 2019
+    },
+    {
+      "title": "The Deal (Off-Campus, #1)",
+      "author": "Elle Kennedy",
+      "rating": 4.22,
+      "year_published": 2015
+    },
+    {
+      "title": "The Serpent and the Wings of Night (Crowns of Nyaxia, #1)",
+      "author": "Carissa Broadbent",
+      "rating": 4.29,
+      "year_published": 2022
+    },
+    {
+      "title": "Twisted Hate (Twisted, #3)",
+      "author": "Ana Huang",
+      "rating": 3.96,
+      "year_published": 2022
+    },
+    {
+      "title": "Twisted Love (Twisted, #1)",
+      "author": "Ana Huang",
+      "rating": 3.72,
+      "year_published": 2022
+    },
+    {
+      "title": "Two Twisted Crowns (The Shepherd King, #2)",
+      "author": "Rachel Gillig",
+      "rating": 4.41,
+      "year_published": 2023
+    },
+    {
+      "title": "One Dark Window (The Shepherd King, #1)",
+      "author": "Rachel Gillig",
+      "rating": 4.28,
+      "year_published": 2022
+    },
+    {
+      "title": "Wildfire (Maple Hills, #2)",
+      "author": "Hannah  Grace",
+      "rating": 3.83,
+      "year_published": 2023
+    },
+    {
+      "title": "Icebreaker (UCMH, #1)",
+      "author": "Hannah  Grace",
+      "rating": 3.77,
+      "year_published": 2022
+    },
+    {
+      "title": "You Deserve Each Other",
+      "author": "Sarah Hogle",
+      "rating": 3.9,
+      "year_published": 2020
+    },
+    {
+      "title": "Reckless (The Powerless Trilogy, #2)",
+      "author": "Lauren  Roberts",
+      "rating": 4.08,
+      "year_published": 2024
+    },
+    {
+      "title": "Powerless (The Powerless Trilogy, #1)",
+      "author": "Lauren  Roberts",
+      "rating": 4.17,
+      "year_published": 2023
+    },
+    {
+      "title": "The Love of My Afterlife",
+      "author": "Kirsty Greenwood",
+      "rating": 4.07,
+      "year_published": 2024
+    },
+    {
+      "title": "The Inheritance Games (The Inheritance Games, #1)",
+      "author": "Jennifer Lynn Barnes",
+      "rating": 4.14,
+      "year_published": 2020
+    },
+    {
+      "title": "The Hawthorne Legacy (The Inheritance Games, #2)",
+      "author": "Jennifer Lynn Barnes",
+      "rating": 4.19,
+      "year_published": 2021
+    },
+    {
+      "title": "A Court of Frost and Starlight (A Court of Thorns and Roses, #3.5)",
+      "author": "Sarah J. Maas",
+      "rating": 3.73,
+      "year_published": 2020
+    },
+    {
+      "title": "A Court of Wings and Ruin (A Court of Thorns and Roses, #3)",
+      "author": "Sarah J. Maas",
+      "rating": 4.47,
+      "year_published": 2020
+    },
+    {
+      "title": "A Court of Mist and Fury (A Court of Thorns and Roses, #2)",
+      "author": "Sarah J. Maas",
+      "rating": 4.64,
+      "year_published": 2020
+    },
+    {
+      "title": "A ​Court of Silver Flames (A Court of Thorns and Roses, #4)",
+      "author": "Sarah J. Maas",
+      "rating": 4.46,
+      "year_published": 2021
+    },
+    {
+      "title": "A Court of Thorns and Roses (A Court of Thorns and Roses, #1)",
+      "author": "Sarah J. Maas",
+      "rating": 4.17,
+      "year_published": 2020
+    },
+    {
+      "title": "Funny Story",
+      "author": "Emily Henry",
+      "rating": 4.21,
+      "year_published": 2024
+    },
+    {
+      "title": "Onyx Storm (The Empyrean, #3)",
+      "author": "Rebecca Yarros",
+      "rating": 4.24,
+      "year_published": 2025
+    },
+    {
+      "title": "Fourth Wing (The Empyrean, #1)",
+      "author": "Rebecca Yarros",
+      "rating": 4.58,
+      "year_published": 2023
+    },
+    {
+      "title": "Iron Flame (The Empyrean, #2)",
+      "author": "Rebecca Yarros",
+      "rating": 4.37,
+      "year_published": 2023
+    },
+    {
+      "title": "Emily Wilde's Encyclopaedia of Faeries (Emily Wilde, #1)",
+      "author": "Heather Fawcett",
+      "rating": 3.99,
+      "year_published": 2023
+    },
+    {
+      "title": "Done and Dusted (Rebel Blue Ranch, #1)",
+      "author": "Lyla Sage",
+      "rating": 3.84,
+      "year_published": 2023
+    },
+    {
+      "title": "Daydream (Maple Hills, #3)",
+      "author": "Hannah  Grace",
+      "rating": 3.95,
+      "year_published": 2024
+    },
+    {
+      "title": "Daughter of Smoke & Bone (Daughter of Smoke & Bone, #1)",
+      "author": "Laini Taylor",
+      "rating": 3.99,
+      "year_published": 2011
+    },
+    {
+      "title": "Heir of Fire (Throne of Glass, #3)",
+      "author": "Sarah J. Maas",
+      "rating": 4.45,
+      "year_published": 2023
+    },
+    {
+      "title": "Crown of Midnight (Throne of Glass, #2)",
+      "author": "Sarah J. Maas",
+      "rating": 4.36,
+      "year_published": 2023
+    },
+    {
+      "title": "Collide (Off the Ice #1)",
+      "author": "Bal Khabra",
+      "rating": 3.78,
+      "year_published": 2023
+    },
+    {
+      "title": "Spectacular (Caraval, #3.5)",
+      "author": "Stephanie Garber & Rosie Fowinkle",
+      "rating": 3.71,
+      "year_published": 2024
+    },
+    {
+      "title": "Finale (Caraval, #3)",
+      "author": "Stephanie Garber",
+      "rating": 4.14,
+      "year_published": 2019
+    },
+    {
+      "title": "Legendary (Caraval, #2)",
+      "author": "Stephanie Garber",
+      "rating": 4.12,
+      "year_published": 2018
+    },
+    {
+      "title": "Caraval (Caraval, #1)",
+      "author": "Stephanie Garber",
+      "rating": 3.97,
+      "year_published": 2017
+    },
+    {
+      "title": "Mixed Signals (Lovelight, #3)",
+      "author": "B.K. Borison",
+      "rating": 3.98,
+      "year_published": 2022
+    },
+    {
+      "title": "In the Weeds (Lovelight, #2)",
+      "author": "B.K. Borison",
+      "rating": 3.83,
+      "year_published": 2022
+    },
+    {
+      "title": "Lovelight Farms (Lovelight, #1)",
+      "author": "B.K. Borison",
+      "rating": 3.84,
+      "year_published": 2021
+    },
+    {
+      "title": "Business Casual (Lovelight, #4)",
+      "author": "B.K. Borison",
+      "rating": 4.12,
+      "year_published": 2024
+    },
+    {
+      "title": "Book Lovers",
+      "author": "Emily Henry",
+      "rating": 4.11,
+      "year_published": 2022
+    },
+    {
+      "title": "Better Than the Movies (Better Than the Movies, #1)",
+      "author": "Lynn Painter",
+      "rating": 4.27,
+      "year_published": 2021
+    },
+    {
+      "title": "Foxglove (Belladonna, #2)",
+      "author": "Adalyn  Grace",
+      "rating": 4.12,
+      "year_published": 2023
+    },
+    {
+      "title": "Wisteria (Belladonna, #3)",
+      "author": "Adalyn  Grace",
+      "rating": 4.25,
+      "year_published": 2024
+    },
+    {
+      "title": "Belladonna (Belladonna, #1)",
+      "author": "Adalyn  Grace",
+      "rating": 3.97,
+      "year_published": 2022
+    },
+    {
+      "title": "A Curse for True Love (Once Upon a Broken Heart, #3)",
+      "author": "Stephanie Garber",
+      "rating": 4.14,
+      "year_published": 2023
+    },
+    {
+      "title": "Divine Rivals (Letters of Enchantment, #1)",
+      "author": "Rebecca   Ross",
+      "rating": 4.16,
+      "year_published": 2023
+    },
+    {
+      "title": "Twisted Love (Twisted, #1)",
+      "author": "Ana Huang",
+      "rating": 3.72,
+      "year_published": 2021
+    },
+    {
+      "title": "Twisted Hate (Twisted, #3)",
+      "author": "Ana Huang",
+      "rating": 3.96,
+      "year_published": 2022
+    },
+    {
+      "title": "A Court of Frost and Starlight (A Court of Thorns and Roses, #3.5)",
+      "author": "Sarah J. Maas",
+      "rating": 3.73,
+      "year_published": 2018
+    },
+    {
+      "title": "Anyone But Nick (Anyone But..., #3)",
+      "author": "Penelope Bloom",
+      "rating": 4.04,
+      "year_published": 2020
+    },
+    {
+      "title": "Anyone But Cade (Anyone But..., #2)",
+      "author": "Penelope Bloom",
+      "rating": 4.07,
+      "year_published": 2019
+    },
+    {
+      "title": "Anyone But Rich (Anyone But..., #1)",
+      "author": "Penelope Bloom",
+      "rating": 3.72,
+      "year_published": 2019
+    },
+    {
+      "title": "The Score (Off-Campus, #3)",
+      "author": "Elle Kennedy",
+      "rating": 4.15,
+      "year_published": 2016
+    },
+    {
+      "title": "The Mistake (Off-Campus, #2)",
+      "author": "Elle Kennedy",
+      "rating": 3.98,
+      "year_published": 2015
+    },
+    {
+      "title": "The Deal (Off-Campus, #1)",
+      "author": "Elle Kennedy",
+      "rating": 4.22,
+      "year_published": 2015
+    },
+    {
+      "title": "Serpent & Dove (Serpent & Dove, #1)",
+      "author": "Shelby Mahurin",
+      "rating": 3.98,
+      "year_published": 2019
+    },
+    {
+      "title": "How the King of Elfhame Learned to Hate Stories (The Folk of the Air, #3.5)",
+      "author": "Holly Black",
+      "rating": 4.16,
+      "year_published": 2020
+    },
+    {
+      "title": "Kingdom of the Wicked (Kingdom of the Wicked, #1)",
+      "author": "Kerri Maniscalco",
+      "rating": 3.87,
+      "year_published": 2020
+    },
+    {
+      "title": "An Enchantment of Ravens",
+      "author": "Margaret  Rogerson",
+      "rating": 3.64,
+      "year_published": 2017
+    },
+    {
+      "title": "Throne of Glass (Throne of Glass, #1)",
+      "author": "Sarah J. Maas",
+      "rating": 4.18,
+      "year_published": 2012
+    },
+    {
+      "title": "The Wicked King (The Folk of the Air, #2)",
+      "author": "Holly Black",
+      "rating": 4.28,
+      "year_published": 2019
+    },
+    {
+      "title": "The Queen of Nothing (The Folk of the Air, #3)",
+      "author": "Holly Black",
+      "rating": 4.34,
+      "year_published": 2019
+    },
+    {
+      "title": "A Court of Wings and Ruin (A Court of Thorns and Roses, #3)",
+      "author": "Sarah J. Maas",
+      "rating": 4.47,
+      "year_published": 2017
+    },
+    {
+      "title": "A Court of Thorns and Roses (A Court of Thorns and Roses, #1)",
+      "author": "Sarah J. Maas",
+      "rating": 4.17,
+      "year_published": 2015
+    },
+    {
+      "title": "A Court of Mist and Fury (A Court of Thorns and Roses, #2)",
+      "author": "Sarah J. Maas",
+      "rating": 4.64,
+      "year_published": 2016
+    },
+    {
+      "title": "The Cruel Prince (The Folk of the Air, #1)",
+      "author": "Holly Black",
+      "rating": 4.02,
+      "year_published": 2018
+    }
+  ]
+}

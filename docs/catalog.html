@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- A Intro to Coding for Journalists class project -->
+  <head>
+    <title>Greatreads | Book Catalog</title>
+    <meta
+      name="description"
+      content="A complete list of books I've read since coming to UT."
+    />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Greatreads</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="starters.html">Romance Starter Pack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalog.html">Book Catalog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="jumbo" class="p-5 mb-4 bg-light">
+      <div class="container-fluid py-5 text-center">
+        <h1 class="display-5 fw-bold">Welcome to Greatreads</h1>
+        <p>We're happy to have you here</p>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <div class="container">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>Book Title</th>
+            <th>Author</th>
+            <th>Rating</th>
+            <th>Year Published</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>The Ballad of Never After (Once Upon a Broken Heart, #2)</td>
+            <td>Stephanie Garber</td>
+            <td>4.5</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Once Upon a Broken Heart (Once Upon a Broken Heart, #1)</td>
+            <td>Stephanie Garber</td>
+            <td>4.06</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>The Cheat Sheet (The Cheat Sheet, #1)</td>
+            <td>Sarah Adams</td>
+            <td>3.71</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>The Dixon Rule (Campus Diaries, #2)</td>
+            <td>Elle Kennedy</td>
+            <td>4.17</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>The Dare (Briar U, #4)</td>
+            <td>Elle Kennedy</td>
+            <td>3.75</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>The Legacy (Off-Campus, #5)</td>
+            <td>Elle Kennedy</td>
+            <td>3.78</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>The Score (Off-Campus, #3)</td>
+            <td>Elle Kennedy</td>
+            <td>4.15</td>
+            <td>2016</td>
+          </tr>
+
+          <tr>
+            <td>The Play (Briar U, #3)</td>
+            <td>Elle Kennedy</td>
+            <td>4.01</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>The Graham Effect (Campus Diaries, #1)</td>
+            <td>Elle Kennedy</td>
+            <td>4.19</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>The Goal (Off-Campus, #4)</td>
+            <td>Elle Kennedy</td>
+            <td>3.89</td>
+            <td>2016</td>
+          </tr>
+
+          <tr>
+            <td>The Mistake (Off-Campus, #2)</td>
+            <td>Elle Kennedy</td>
+            <td>3.98</td>
+            <td>2015</td>
+          </tr>
+
+          <tr>
+            <td>The Chase (Briar U, #1)</td>
+            <td>Elle Kennedy</td>
+            <td>3.86</td>
+            <td>2018</td>
+          </tr>
+
+          <tr>
+            <td>The Risk (Briar U, #2)</td>
+            <td>Elle Kennedy</td>
+            <td>4.22</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>The Deal (Off-Campus, #1)</td>
+            <td>Elle Kennedy</td>
+            <td>4.22</td>
+            <td>2015</td>
+          </tr>
+
+          <tr>
+            <td>The Serpent and the Wings of Night (Crowns of Nyaxia, #1)</td>
+            <td>Carissa Broadbent</td>
+            <td>4.29</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Twisted Hate (Twisted, #3)</td>
+            <td>Ana Huang</td>
+            <td>3.96</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Twisted Love (Twisted, #1)</td>
+            <td>Ana Huang</td>
+            <td>3.72</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Two Twisted Crowns (The Shepherd King, #2)</td>
+            <td>Rachel Gillig</td>
+            <td>4.41</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>One Dark Window (The Shepherd King, #1)</td>
+            <td>Rachel Gillig</td>
+            <td>4.28</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Wildfire (Maple Hills, #2)</td>
+            <td>Hannah Grace</td>
+            <td>3.83</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Icebreaker (UCMH, #1)</td>
+            <td>Hannah Grace</td>
+            <td>3.77</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>You Deserve Each Other</td>
+            <td>Sarah Hogle</td>
+            <td>3.9</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>Reckless (The Powerless Trilogy, #2)</td>
+            <td>Lauren Roberts</td>
+            <td>4.08</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>Powerless (The Powerless Trilogy, #1)</td>
+            <td>Lauren Roberts</td>
+            <td>4.17</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>The Love of My Afterlife</td>
+            <td>Kirsty Greenwood</td>
+            <td>4.07</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>The Inheritance Games (The Inheritance Games, #1)</td>
+            <td>Jennifer Lynn Barnes</td>
+            <td>4.14</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>The Hawthorne Legacy (The Inheritance Games, #2)</td>
+            <td>Jennifer Lynn Barnes</td>
+            <td>4.19</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>
+              A Court of Frost and Starlight (A Court of Thorns and Roses, #3.5)
+            </td>
+            <td>Sarah J. Maas</td>
+            <td>3.73</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>A Court of Wings and Ruin (A Court of Thorns and Roses, #3)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.47</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>A Court of Mist and Fury (A Court of Thorns and Roses, #2)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.64</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>A ​Court of Silver Flames (A Court of Thorns and Roses, #4)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.46</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>
+              A Court of Thorns and Roses (A Court of Thorns and Roses, #1)
+            </td>
+            <td>Sarah J. Maas</td>
+            <td>4.17</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>Funny Story</td>
+            <td>Emily Henry</td>
+            <td>4.21</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>Onyx Storm (The Empyrean, #3)</td>
+            <td>Rebecca Yarros</td>
+            <td>4.24</td>
+            <td>2025</td>
+          </tr>
+
+          <tr>
+            <td>Fourth Wing (The Empyrean, #1)</td>
+            <td>Rebecca Yarros</td>
+            <td>4.58</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Iron Flame (The Empyrean, #2)</td>
+            <td>Rebecca Yarros</td>
+            <td>4.37</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>
+              Emily Wilde&#39;s Encyclopaedia of Faeries (Emily Wilde, #1)
+            </td>
+            <td>Heather Fawcett</td>
+            <td>3.99</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Done and Dusted (Rebel Blue Ranch, #1)</td>
+            <td>Lyla Sage</td>
+            <td>3.84</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Daydream (Maple Hills, #3)</td>
+            <td>Hannah Grace</td>
+            <td>3.95</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>
+              Daughter of Smoke &amp; Bone (Daughter of Smoke &amp; Bone, #1)
+            </td>
+            <td>Laini Taylor</td>
+            <td>3.99</td>
+            <td>2011</td>
+          </tr>
+
+          <tr>
+            <td>Heir of Fire (Throne of Glass, #3)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.45</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Crown of Midnight (Throne of Glass, #2)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.36</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Collide (Off the Ice #1)</td>
+            <td>Bal Khabra</td>
+            <td>3.78</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Spectacular (Caraval, #3.5)</td>
+            <td>Stephanie Garber &amp; Rosie Fowinkle</td>
+            <td>3.71</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>Finale (Caraval, #3)</td>
+            <td>Stephanie Garber</td>
+            <td>4.14</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>Legendary (Caraval, #2)</td>
+            <td>Stephanie Garber</td>
+            <td>4.12</td>
+            <td>2018</td>
+          </tr>
+
+          <tr>
+            <td>Caraval (Caraval, #1)</td>
+            <td>Stephanie Garber</td>
+            <td>3.97</td>
+            <td>2017</td>
+          </tr>
+
+          <tr>
+            <td>Mixed Signals (Lovelight, #3)</td>
+            <td>B.K. Borison</td>
+            <td>3.98</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>In the Weeds (Lovelight, #2)</td>
+            <td>B.K. Borison</td>
+            <td>3.83</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Lovelight Farms (Lovelight, #1)</td>
+            <td>B.K. Borison</td>
+            <td>3.84</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>Business Casual (Lovelight, #4)</td>
+            <td>B.K. Borison</td>
+            <td>4.12</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>Book Lovers</td>
+            <td>Emily Henry</td>
+            <td>4.11</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>Better Than the Movies (Better Than the Movies, #1)</td>
+            <td>Lynn Painter</td>
+            <td>4.27</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>Foxglove (Belladonna, #2)</td>
+            <td>Adalyn Grace</td>
+            <td>4.12</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Wisteria (Belladonna, #3)</td>
+            <td>Adalyn Grace</td>
+            <td>4.25</td>
+            <td>2024</td>
+          </tr>
+
+          <tr>
+            <td>Belladonna (Belladonna, #1)</td>
+            <td>Adalyn Grace</td>
+            <td>3.97</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>A Curse for True Love (Once Upon a Broken Heart, #3)</td>
+            <td>Stephanie Garber</td>
+            <td>4.14</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Divine Rivals (Letters of Enchantment, #1)</td>
+            <td>Rebecca Ross</td>
+            <td>4.16</td>
+            <td>2023</td>
+          </tr>
+
+          <tr>
+            <td>Twisted Love (Twisted, #1)</td>
+            <td>Ana Huang</td>
+            <td>3.72</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>Twisted Hate (Twisted, #3)</td>
+            <td>Ana Huang</td>
+            <td>3.96</td>
+            <td>2022</td>
+          </tr>
+
+          <tr>
+            <td>
+              A Court of Frost and Starlight (A Court of Thorns and Roses, #3.5)
+            </td>
+            <td>Sarah J. Maas</td>
+            <td>3.73</td>
+            <td>2018</td>
+          </tr>
+
+          <tr>
+            <td>Anyone But Nick (Anyone But..., #3)</td>
+            <td>Penelope Bloom</td>
+            <td>4.04</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>Anyone But Cade (Anyone But..., #2)</td>
+            <td>Penelope Bloom</td>
+            <td>4.07</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>Anyone But Rich (Anyone But..., #1)</td>
+            <td>Penelope Bloom</td>
+            <td>3.72</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>The Score (Off-Campus, #3)</td>
+            <td>Elle Kennedy</td>
+            <td>4.15</td>
+            <td>2016</td>
+          </tr>
+
+          <tr>
+            <td>The Mistake (Off-Campus, #2)</td>
+            <td>Elle Kennedy</td>
+            <td>3.98</td>
+            <td>2015</td>
+          </tr>
+
+          <tr>
+            <td>The Deal (Off-Campus, #1)</td>
+            <td>Elle Kennedy</td>
+            <td>4.22</td>
+            <td>2015</td>
+          </tr>
+
+          <tr>
+            <td>Serpent &amp; Dove (Serpent &amp; Dove, #1)</td>
+            <td>Shelby Mahurin</td>
+            <td>3.98</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>
+              How the King of Elfhame Learned to Hate Stories (The Folk of the
+              Air, #3.5)
+            </td>
+            <td>Holly Black</td>
+            <td>4.16</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>Kingdom of the Wicked (Kingdom of the Wicked, #1)</td>
+            <td>Kerri Maniscalco</td>
+            <td>3.87</td>
+            <td>2020</td>
+          </tr>
+
+          <tr>
+            <td>An Enchantment of Ravens</td>
+            <td>Margaret Rogerson</td>
+            <td>3.64</td>
+            <td>2017</td>
+          </tr>
+
+          <tr>
+            <td>Throne of Glass (Throne of Glass, #1)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.18</td>
+            <td>2012</td>
+          </tr>
+
+          <tr>
+            <td>The Wicked King (The Folk of the Air, #2)</td>
+            <td>Holly Black</td>
+            <td>4.28</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>The Queen of Nothing (The Folk of the Air, #3)</td>
+            <td>Holly Black</td>
+            <td>4.34</td>
+            <td>2019</td>
+          </tr>
+
+          <tr>
+            <td>A Court of Wings and Ruin (A Court of Thorns and Roses, #3)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.47</td>
+            <td>2017</td>
+          </tr>
+
+          <tr>
+            <td>
+              A Court of Thorns and Roses (A Court of Thorns and Roses, #1)
+            </td>
+            <td>Sarah J. Maas</td>
+            <td>4.17</td>
+            <td>2015</td>
+          </tr>
+
+          <tr>
+            <td>A Court of Mist and Fury (A Court of Thorns and Roses, #2)</td>
+            <td>Sarah J. Maas</td>
+            <td>4.64</td>
+            <td>2016</td>
+          </tr>
+
+          <tr>
+            <td>The Cruel Prince (The Folk of the Air, #1)</td>
+            <td>Holly Black</td>
+            <td>4.02</td>
+            <td>2018</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <footer>
+      <p id="legal" class="center-block text-center">
+        <small>&copy;</small> <span class="copyright-year"></span>
+        A class project by Samantha Natividad.
+      </p>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

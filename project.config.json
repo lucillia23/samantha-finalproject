@@ -1,16 +1,6 @@
 {
   "files": [
     {
-      "fileId": "1RgMhjtkXlbbf9uzSzy_xPRKwxcVZIZqVytgM_JoU4E4",
-      "type": "doc",
-      "name": "library"
-    },
-    {
-      "fileId": "1gDwO-32cgpBDn_0niV0iu6TqQTaRDr4nmSqnT53magY",
-      "type": "sheet",
-      "name": "bookstores"
-    },
-    {
       "fileId": "1fqQvuXwHQba0cA7JCcQ1bAQUASj04zI5iRUA6vZ5i5Q",
       "type": "sheet",
       "name": "starters"
@@ -19,18 +9,16 @@
       "fileId": "1OjX-CQdCI2j5C7vZ9pQT6C2sBnk-OhahrVAtq6ev1s4",
       "type": "doc",
       "name": "reviews"
+    },
+    {
+      "fileId": "1y0RuxgvbgPFpWUuIU7IeCPyCYwZW9S1W4-OkYlSbW1Q",
+      "type": "sheet",
+      "name": "bookcatalog"
     }
 
 
   ],
   "to_bake": [
-    {
-      "template": "bake-book",
-      "data": "library",
-      "array": "books",
-      "slug": "slug",
-      "path": "books"
-    },
     {
       "template": "bake-blog",
       "data": "reviews",
