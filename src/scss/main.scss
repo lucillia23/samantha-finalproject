@@ -22,6 +22,19 @@
 @import 'nav';
 @import 'jumbotron';
 
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap');
+
+h1, h3 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  }
+
 h3 {
   font-size: 1.5rem;
+}
+  
+p {
+  font-family: "IM Fell French Canon", serif;
+  font-style: normal;
 }

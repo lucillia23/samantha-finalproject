@@ -1,5 +1,11 @@
 /* nav */
 
 .navbar {
-  margin-bottom: 20px;
+  background-color: rgb(215, 97, 97);
+
+  a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(215, 97, 97);
+  }
+  
 }
