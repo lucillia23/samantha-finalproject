@@ -22,19 +22,46 @@
 @import 'nav';
 @import 'jumbotron';
 
-@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Cinzel:wght@700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 
 h1, h3 {
-  font-family: "Alegreya Sans SC", sans-serif;
-  font-weight: 700;
+  font-family: "Cinzel Decorative", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal
+}
+
+h4 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal
+}
+
+h5 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal
+}
+
+h6 {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
   font-style: normal;
   }
 
-h3 {
-  font-size: 1.5rem;
-}
-  
-p {
-  font-family: "IM Fell French Canon", serif;
+#catalog, p {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
 }

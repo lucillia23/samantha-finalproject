@@ -1,6 +1,6 @@
 {% extends '_templates/base.njk' %}
 
-{% block page_title %}Book Catalog{% endblock %}
+{% block page_title %}Catalog Trial{% endblock %}
 
 {% block page_description %}A complete list of books I've read since coming to UT.{% endblock %}
 
@@ -8,7 +8,8 @@
 
 {# adjust for responsive device width, scroll v. collapse option #}
 {# put javascript code for datatables.net second in base.njk #}
-<h1>ur mom</h1>
+
+<body>
 
 <div id="catalog" class="container">         
   <table class="table table-hover">
@@ -33,14 +34,5 @@
   </table>
 </div>
 
-<script src="..js/catalog.js"></script>
-
-<script>
-  let table = new DataTable('#catalog', {
-    paging: true,
-    searching: true,
-    ordering: true,
-  });
-</script>
-
+</body>
 {% endblock %}

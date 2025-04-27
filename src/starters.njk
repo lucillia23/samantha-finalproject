@@ -5,8 +5,13 @@
 {% block page_description %}A list of standalones and popular firsts in series.{% endblock %}
 
 {% block content %}
+
+{# try to make the cards move/ hover a bit... or a pop-up with the book cover #}
+{# try making another bake page of cards with books i personally like #}
+{# consider making an about me page#}
+
 <article class="container">
-  <h1>A Reader's Starter Pack to Romance</h1>
+  <h1 class="fw-bold">A Reader's Starter Pack to Romance</h1>
   <p>A list of books to get started with reading from contemporary fiction to romantasy.</p>
 <div class="row row-cols-1 row-cols-md-2 g-4">
     {% for book in starters.starter %}
@@ -18,7 +23,9 @@
                 <p class="card-text">{{ book.blurb }}</p>
             </div>
             <div class="card-footer">
-                <a href="{{ book.source }}" class="card-link">More about the book</a>
+                <p>
+                    <a href="{{ book.source }}" class="card-link">More about the book</a>
+                </p>
             </div>
         </div>
     </div>

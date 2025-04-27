@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
-    <title>Greatreads | The Love of My Afterlife</title>
+    <title>BITUIN | The Love of My Afterlife</title>
     <meta
       name="description"
       content="The Love of My Afterlife Samantha's book reviews"
@@ -14,11 +14,16 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <link rel="stylesheet" href="../css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
+    />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="../index.html">Greatreads</a>
+        <a class="navbar-brand" href="../index.html">Bituin Books</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -40,15 +45,24 @@
             <li class="nav-item">
               <a class="nav-link" href="../catalog.html">Book Catalog</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../carousel.html">Carousel Trial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../catalog copy.html">Catalog Trial</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div id="jumbo" class="p-5 mb-4 bg-light">
+    <div id="jumbo" class="mb-4 bg-light">
       <div class="container-fluid py-5 text-center">
-        <h1 class="display-5 fw-bold">Welcome to Greatreads</h1>
-        <p>We're happy to have you here</p>
+        <h1 class="display-5 fw-bold">BITUIN</h1>
+        <h6>
+          While every star has its own light, every book has its own special
+          life.
+        </h6>
       </div>
     </div>
 
@@ -84,11 +98,17 @@
     </footer>
 
     <script src="../js/jquery.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/scripts.js"></script>
+
     <script>
-      $('.carousel').carousel({
-        interval: 100
+      $(document).ready(function () {
+        // Initialize DataTables
+        $('.table').DataTable();
       });
     </script>
   </body>

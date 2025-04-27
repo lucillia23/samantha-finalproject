@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
-    <title>Greatreads | Book Catalog</title>
+    <title>BITUIN | Book Catalog</title>
     <meta
       name="description"
       content="A complete list of books I've read since coming to UT."
@@ -14,11 +14,16 @@
       content="width=device-width, initial-scale=1, maximum-scale=1"
     />
     <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.13.4/css/jquery.dataTables.min.css"
+    />
   </head>
+
   <body>
     <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Greatreads</a>
+        <a class="navbar-brand" href="index.html">Bituin Books</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -38,22 +43,30 @@
             <li class="nav-item">
               <a class="nav-link" href="catalog.html">Book Catalog</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carousel.html">Carousel Trial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalog copy.html">Catalog Trial</a>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <div id="jumbo" class="p-5 mb-4 bg-light">
+    <div id="jumbo" class="mb-4 bg-light">
       <div class="container-fluid py-5 text-center">
-        <h1 class="display-5 fw-bold">Welcome to Greatreads</h1>
-        <p>We're happy to have you here</p>
+        <h1 class="display-5 fw-bold">BITUIN</h1>
+        <h6>
+          While every star has its own light, every book has its own special
+          life.
+        </h6>
       </div>
     </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <h1>ur mom</h1>
 
-    <div class="container">
+    <div id="catalog" class="container">
       <table class="table table-hover">
         <thead>
           <tr>
@@ -64,6 +77,20 @@
           </tr>
         </thead>
         <tbody>
+          <tr>
+            <td>The Love Hypothesis</td>
+            <td>Ali Hazelwood</td>
+            <td>4.12</td>
+            <td>2021</td>
+          </tr>
+
+          <tr>
+            <td>Love and Other Words</td>
+            <td>Christina Lauren</td>
+            <td>4.23</td>
+            <td>2018</td>
+          </tr>
+
           <tr>
             <td>The Ballad of Never After (Once Upon a Broken Heart, #2)</td>
             <td>Stephanie Garber</td>
@@ -628,6 +655,16 @@
       </table>
     </div>
 
+    <script src="..js/catalog.js"></script>
+
+    <script>
+      let table = new DataTable('#catalog', {
+        paging: true,
+        searching: true,
+        ordering: true
+      });
+    </script>
+
     <footer>
       <p id="legal" class="center-block text-center">
         <small>&copy;</small> <span class="copyright-year"></span>
@@ -636,11 +673,17 @@
     </footer>
 
     <script src="js/jquery.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
+
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/scripts.js"></script>
+
     <script>
-      $('.carousel').carousel({
-        interval: 100
+      $(document).ready(function () {
+        // Initialize DataTables
+        $('.table').DataTable();
       });
     </script>
   </body>

@@ -1,6 +1,18 @@
 {
   "catalog": [
     {
+      "title": "The Love Hypothesis",
+      "author": "Ali Hazelwood",
+      "rating": 4.12,
+      "year_published": 2021
+    },
+    {
+      "title": "Love and Other Words",
+      "author": "Christina Lauren",
+      "rating": 4.23,
+      "year_published": 2018
+    },
+    {
       "title": "The Ballad of Never After (Once Upon a Broken Heart, #2)",
       "author": "Stephanie Garber",
       "rating": 4.5,
