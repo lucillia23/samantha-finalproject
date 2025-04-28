@@ -11,15 +11,15 @@
       <p>"Bituin," meaning "star" in Filipino, could be seen as the guide—a constellation that helps illuminate the crossroads of who you are and who you are becoming, one book, one life at a time. The idea becomes more than just reading; it becomes living. Each book is a life you take on, like an alternate dimension of yourself, each illuminating new ways to exist, think, and feel.</p>
 
       <h2>Book Reviews</h2>
-      <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
+        <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
 
-      <ol class="carousel-indicators">
-        {% for entry in reviews.posts %}
-            <li data-target="#reviewCarousel1" data-slide-to="{{ loop.index0 }}">
-            {% if loop.first %}class="active"{% endif %}
-            </li>
-        {% endfor %}
-      </ol>
+        <ol class="carousel-indicators">
+          {% for entry in reviews.posts %}
+              <li data-target="#reviewCarousel" data-slide-to="{{ loop.index0 }}"
+              {% if loop.first %}class="active"{% endif %}>
+              </li>
+          {% endfor %}
+        </ol>
 
     <!-- Carousel Inner Slides -->
         <div class="carousel-inner">
@@ -43,4 +43,7 @@
       </a>
 
     </div>
+    </div>
+  </div>
+</div>
 {% endblock %}
