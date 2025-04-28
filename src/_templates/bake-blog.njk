@@ -2,20 +2,20 @@
 {% set relative_path = "../" %}
 {% from '_macros/prose.njk' import prose %}
 
-{% block page_title %}{{ title }}{% endblock %}
+{% block page_title %}{{ title }} Review{% endblock %}
 
-{% block page_description %}{{ title }} Bituin Reviews{% endblock %}
+{% block page_description %}{{ title }} Bituin Book Reviews{% endblock %}
 
 {% block content %}
-  <article class="container">
-    <div class="row">
-      <div class="col-sm-4">
-        <img src="../img/{{ image }}" alt=""class="img-fluid">
+  <article class="container my-5">
+    <div class="row align-items-start">
+      <div class="col-md-4 mb-4">
+        <img src="../img/{{ image }}" class="img-fluid rounded shadow-sm w-100">
         
       </div>
-      <div class="col-sm-8 fluid">
-        <h1>{{ title }}</h1>
-        <h5>by {{ author }}</h5>
+      <div class="col-md-8 mb-4">
+        <h1 class="mb-3">{{ title }}</h1>
+        <h4 class="text-muted mb-4">by {{ author }}</h4>
         {{ prose(review) }}
       </div>
     </div>

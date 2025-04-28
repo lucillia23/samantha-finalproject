@@ -1,8 +1,9 @@
 /* nav */
-
 .navbar {
-  background-color: rgb(215, 97, 97);
+  background-color: #041f60;
+}
 
+.nav-link, .nav-item {
   a:hover {
     text-decoration: underline;
     text-decoration-color: rgb(58, 63, 163);

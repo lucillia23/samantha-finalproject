@@ -2,7 +2,7 @@
 <html lang="en">
   <!-- A Intro to Coding for Journalists class project -->
   <head>
-    <title>BITUIN | Welcome to Greatreads</title>
+    <title>BITUIN | Carousel Trial</title>
     <meta name="description" content="Default description">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -47,65 +47,40 @@
 
     
 
-<div class="container">
-  <div class="row justify-content-center">
-    <div class="col-12 col-md-8 col-lg-6">
-      <h2 class="fw-bold">Welcome to Bituin Books</h2>
-      <p>"Bituin," meaning "star" in Filipino, could be seen as the guide—a constellation that helps illuminate the crossroads of who you are and who you are becoming, one book, one life at a time. The idea becomes more than just reading; it becomes living. Each book is a life you take on, like an alternate dimension of yourself, each illuminating new ways to exist, think, and feel.</p>
+<div id="reviewCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#reviewCarousel1" data-slide-to="0" class="active"></li>
+    <li data-target="#reviewCarousel1" data-slide-to="1"></li>
+    <li data-target="#reviewCarousel1" data-slide-to="2"></li>
+  </ol>
 
-      <h2>Book Reviews</h2>
-      <div id="reviewCarousel" class="carousel slide" data-ride="carousel">
-
-      <ol class="carousel-indicators">
-        
-            <li data-target="#reviewCarousel1" data-slide-to="0">
-            class="active"
-            </li>
-        
-            <li data-target="#reviewCarousel1" data-slide-to="1">
-            
-            </li>
-        
-            <li data-target="#reviewCarousel1" data-slide-to="2">
-            
-            </li>
-        
-      </ol>
-
-    <!-- Carousel Inner Slides -->
-        <div class="carousel-inner">
-            
-                <div class="carousel-item active">
-                    <a href="blog/2025-04-16.html">
-                        <img src="../img/fourthwing.jpg" class="d-block w-50 mx-auto">
-                    </a>
-                </div>
-                
-                <div class="carousel-item ">
-                    <a href="blog/2025-04-17.html">
-                        <img src="../img/loveofmyafterlife.jpg" class="d-block w-50 mx-auto">
-                    </a>
-                </div>
-                
-                <div class="carousel-item ">
-                    <a href="blog/2025-04-18.html">
-                        <img src="../img/throneofglass.jpg" class="d-block w-50 mx-auto">
-                    </a>
-                </div>
-                
-        </div>
-
-    <!-- Carousel Controls -->
-      <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <a class="carousel-item active" href="../blog/2025-04-26.html">
+        <center><img class="d-block w-50" src="../img/loveofmyafterlife.jpg"></center>
       </a>
-      <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
-
     </div>
+    <div class="carousel-item">
+      <center>
+        <img class="d-block w-50" src="../img/fourthwing.jpg" width="250">
+        <a class="carousel-control-prev" href="../docs/blog/2025-04-16.html" role="button" data-slide="prev">
+        </a>
+    </center>
+    </div>
+    <div class="carousel-item">
+      <center><img class="d-block w-50" src="../img/throneofglass.jpg" width="250"></center>
+    </div>
+  </div>
+
+  <a class="carousel-control-prev" href="#reviewCarousel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#reviewCarousel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
 
     <footer>
