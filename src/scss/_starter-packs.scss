@@ -2,6 +2,16 @@
     transition: all 0.3s;
 }
 
-.card:hover {
-    transform: scale(1.15);
+.card-icon {
+    margin: 0 1em;
 }
+
+.card {
+    background-color: #041f60;
+    border: 0;
+}
+
+.card:hover {
+    transform:scale(1.2)
+}
+
