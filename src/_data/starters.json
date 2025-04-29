@@ -1,5 +1,5 @@
 {
-  "starter": [
+  "draft": [
     {
       "book_name": "Lovelight Farms",
       "author": "B.K. Borison",
@@ -59,6 +59,283 @@
       "author": "Kristen Ciccarelli",
       "blurb": "On the night Rune’s life changed forever, blood ran in the streets. Now, in the aftermath of a devastating revolution, witches have been diminished from powerful rulers to outcasts ruthlessly hunted due to their waning magic, and Rune must hide what she is. Spending her days pretending to be nothing more than a vapid young socialite, Rune spends her nights as the Crimson Moth, a witch vigilante who rescues her kind from being purged. When a rescue goes wrong, she decides to throw the witch hunters off her scent and gain the intel she desperately needs by courting the handsome Gideon Sharpe – a notorious and unforgiving witch hunter loyal to the revolution – who she can't help but find herself falling for. Gideon loathes the decadence and superficiality Rune represents, but when he learns the Crimson Moth has been using Rune’s merchant ships to smuggle renegade witches out of the republic, he inserts himself into her social circles by pretending to court her right back. He soon realizes that beneath her beauty and shallow façade, is someone fiercely intelligent and tender who feels like his perfect match. Except, what if she’s the very villain he’s been hunting?",
       "source": "https://www.goodreads.com/book/show/127305713-heartless-hunter"
+    }
+  ],
+  "standalones": [
+    {
+      "book_name": "The Love of My Afterlfie"
+    },
+    {
+      "book_name": "Book Lovers"
+    },
+    {
+      "book_name": "Funny Story"
+    },
+    {
+      "book_name": "Love and Other Words"
+    },
+    {
+      "book_name": "You Deserve Each Other"
+    },
+    {
+      "book_name": "Better than the Movies"
+    },
+    {
+      "book_name": "The Cheat Sheet"
+    },
+    {
+      "book_name": "One Dark Window"
+    },
+    {
+      "book_name": "The Serpent and the Wings of Nyaxia"
+    }
+  ],
+  "series": [
+    {
+      "book_title": "The Inheritance Games",
+      "book_img": "inheritancegames.jpg",
+      "series_title": "The Inheritance Games",
+      "author": "Jennifer Lynn Barnes",
+      "badges": "Enemies to Lovers",
+      "tagline": "When a billionaire leaves her his fortune, Avery must outwit his scheming heirs — and survive the deadly puzzles he left behind",
+      "goodreads": "https://www.goodreads.com/book/show/50531218-the-hawthorne-legacy",
+      "": ""
+    },
+    {
+      "book_title": "Emily Wilde's Encyclopaedia of Faeries",
+      "book_img": "emilywilde.jpg",
+      "series_title": "Emily Wilde",
+      "author": "Heather Fawcett",
+      "tagline": "In a remote village, a brilliant scholar cataloging faeries uncovers magic — and a dangerous partnership with a fae prince.",
+      "goodreads": "https://www.goodreads.com/book/show/60657589-emily-wilde-s-encyclopaedia-of-faeries"
+    },
+    {
+      "book_title": "Collide",
+      "book_img": "collide.jpg",
+      "series_title": "Off the Ice",
+      "author": "Bal Khabra",
+      "tagline": "Two strangers crash into each other's lives — and their dark pasts refuse to let go.",
+      "goodreads": "https://www.goodreads.com/book/show/197306586-collide?from_search=true&from_srp=true&qid=STP1lVVmfD&rank=2"
+    },
+    {
+      "book_title": "Belladonna",
+      "book_img": "belladonna.jpg",
+      "series_title": "Belladonna",
+      "author": "Adalyn Grace",
+      "tagline": "After being poisoned, Signa forms a bond with Death itself — and must solve a murder before death claims another.",
+      "goodreads": "https://www.goodreads.com/book/show/59227936-belladonna?from_search=true&from_srp=true&qid=erKUkIEgJi&rank=1"
+    },
+    {
+      "book_title": "Caraval",
+      "book_img": "caraval.jpg",
+      "series_title": "Caraval",
+      "author": "Stephanie Garber",
+      "tagline": "Invited to a legendary game where reality twists and nothing is safe, Scarlett must rescue her kidnapped sister before the final curtain falls.",
+      "goodreads": "https://www.goodreads.com/book/show/27883214-caraval?ref=nav_sb_ss_1_7"
+    },
+    {
+      "book_title": "Powerless",
+      "book_img": "powerless.jpg",
+      "series_title": "The Powerless Trilogy",
+      "author": "Lauren Roberts",
+      "tagline": "Born without powers in a world of the gifted, she becomes the hunted — and must fight for survival among enemies and traitors.",
+      "goodreads": "https://www.goodreads.com/book/show/75513900-powerless?from_search=true&from_srp=true&qid=B12lv0JJ9g&rank=1"
+    },
+    {
+      "book_title": "Once Upon a Broken Heart",
+      "book_img": "onceuponabrokenheart.jpg",
+      "series_title": "Once Upon a Broken Heart",
+      "author": "Stephanie Garber",
+      "tagline": "Betrayed by love, Evangeline strikes a dangerous deal with the Prince of Hearts — but bargains with fate are never simple.",
+      "goodreads": "https://www.goodreads.com/book/show/55987278-once-upon-a-broken-heart?from_search=true&from_srp=true&qid=AIyQEEzvMH&rank=1"
+    },
+    {
+      "book_title": "Throne of Glass",
+      "book_img": "throneofglass.jpg",
+      "series_title": "Throne of Glass",
+      "author": "Sarah J. Maas",
+      "tagline": "An assassin wins her freedom by competing for the king — but the kingdom’s real danger lurks beneath the castle.",
+      "goodreads": "https://www.goodreads.com/book/show/76703559-throne-of-glass?ref=nav_sb_ss_1_15"
+    },
+    {
+      "book_title": "The Deal",
+      "book_img": "thedeal.jpg",
+      "series_title": "Off-Campus",
+      "author": "Elle Kennedy",
+      "tagline": "When a hockey player needs tutoring and a smart girl needs fake dating revenge, a simple trade spirals into real feelings.",
+      "goodreads": "https://www.goodreads.com/book/show/45484397-the-deal?from_search=true&from_srp=true&qid=kEQyiV3qgs&rank=1"
+    },
+    {
+      "book_title": "Icebreaker",
+      "book_img": "icebreaker.jpg",
+      "series_title": "Maple Hills (UCMH)",
+      "author": "Hannah Grace",
+      "tagline": "A figure skater and a hockey star are forced to share the rink — and maybe their hearts — when everything they’ve worked for is on the line.",
+      "goodreads": "https://www.goodreads.com/book/show/61767292-icebreaker?from_search=true&from_srp=true&qid=s9xV9GmVhD&rank=1"
+    },
+    {
+      "book_title": "Daughter of Smoke and Bone",
+      "book_img": "daughterof.jpg",
+      "series_title": "Daughter of Smoke and Bone",
+      "author": "Laini Taylor",
+      "tagline": "A blue-haired artist raised by monsters discovers her forgotten past — and a forbidden love that could start a war.",
+      "goodreads": "https://www.goodreads.com/book/show/8490112-daughter-of-smoke-bone?ref=nav_sb_ss_1_26"
+    },
+    {
+      "book_title": "Twisted Love",
+      "book_img": "twistedlove.jpg",
+      "series_title": "Twisted",
+      "author": "Ana Huang",
+      "tagline": "Haunted by his past, Alex swore to protect Ava — but the secrets between them could destroy everything they build.",
+      "goodreads": "https://www.goodreads.com/book/show/62057697-twisted-love?from_search=true&from_srp=true&qid=ukTc85W7MO&rank=1"
+    },
+    {
+      "book_title": "Fourth Wing",
+      "book_img": "fourthwing.jpg",
+      "series_title": "The Empyrean",
+      "author": "Rebecca Yarros",
+      "tagline": "Forced into a brutal dragon rider academy, Violet must survive impossible trials — or be burned alive trying.",
+      "goodreads": "https://www.goodreads.com/book/show/61431922-fourth-wing?from_search=true&from_srp=true&qid=ABz8UDThnK&rank=1"
+    },
+    {
+      "book_title": "A Court of Thorns and Roses",
+      "book_img": "acotar.jpg",
+      "series_title": "A Court of Thorns and Roses",
+      "author": "Sarah J. Maas",
+      "tagline": "To save her family, Feyre kills a faerie wolf — only to be dragged into a deadly world of magic, curses, and unexpected love.",
+      "goodreads": "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses?ref=nav_sb_ss_1_13"
+    },
+    {
+      "book_title": "Lovelight Farms",
+      "book_img": "lovelightfarms.jpg",
+      "series_title": "Lovelight",
+      "author": "B.K. Borison",
+      "tagline": "Stella fakes a romance with her best friend to save her failing Christmas tree farm — but the feelings quickly become all too real.",
+      "goodreads": "https://www.goodreads.com/book/show/122753311-lovelight-farms?ref=nav_sb_ss_1_15"
+    }
+  ],
+  "series2": [
+    {
+      "book_title": "The Inheritance Games",
+      "book_img": "inheritancegames.jpg",
+      "author": "Jennifer Lynn Barnes",
+      "tags": "Mystery Thriller, Enemies to Lovers, Love Triangle",
+      "tagline": "When a billionaire leaves her his fortune, Avery must outwit his scheming heirs — and survive the deadly puzzles he left behind",
+      "goodreads": "https://www.goodreads.com/book/show/50531218-the-hawthorne-legacy",
+      "": "",
+      "badges": "Enemies to Lovers"
+    },
+    {
+      "book_title": "Emily Wilde's Encyclopaedia of Faeries",
+      "book_img": "emilywilde.jpg",
+      "author": "Heather Fawcett",
+      "tags": "Cozy, Fantasy, Fae",
+      "tagline": "In a remote village, a brilliant scholar cataloging faeries uncovers magic — and a dangerous partnership with a fae prince.",
+      "goodreads": "https://www.goodreads.com/book/show/60657589-emily-wilde-s-encyclopaedia-of-faeries"
+    },
+    {
+      "book_title": "Collide",
+      "book_img": "collide.jpg",
+      "author": "Bal Khabra",
+      "tags": "Contemporary, Enemies to Lovers, College, Hockey",
+      "tagline": "Two strangers crash into each other's lives — and their dark pasts refuse to let go.",
+      "goodreads": "https://www.goodreads.com/book/show/197306586-collide?from_search=true&from_srp=true&qid=STP1lVVmfD&rank=2"
+    },
+    {
+      "book_title": "Belladonna",
+      "book_img": "belladonna.jpg",
+      "author": "Adalyn Grace",
+      "tags": "Mystery, Supernatural, Gothic, Bituin Favorite",
+      "tagline": "After being poisoned, Signa forms a bond with Death itself — and must solve a murder before death claims another.",
+      "goodreads": "https://www.goodreads.com/book/show/59227936-belladonna?from_search=true&from_srp=true&qid=erKUkIEgJi&rank=1"
+    },
+    {
+      "book_title": "Caraval",
+      "book_img": "caraval.jpg",
+      "author": "Stephanie Garber",
+      "tags": "Fantasy, Mystery",
+      "tagline": "Invited to a legendary game where reality twists and nothing is safe, Scarlett must rescue her kidnapped sister before the final curtain falls.",
+      "goodreads": "https://www.goodreads.com/book/show/27883214-caraval?ref=nav_sb_ss_1_7"
+    },
+    {
+      "book_title": "Powerless",
+      "book_img": "powerless.jpg",
+      "author": "Lauren Roberts",
+      "tags": "Fantasy, Enemies to Lovers",
+      "tagline": "Born without powers in a world of the gifted, she becomes the hunted — and must fight for survival among enemies and traitors.",
+      "goodreads": "https://www.goodreads.com/book/show/75513900-powerless?from_search=true&from_srp=true&qid=B12lv0JJ9g&rank=1"
+    },
+    {
+      "book_title": "Once Upon a Broken Heart",
+      "book_img": "onceuponabrokenheart.jpg",
+      "author": "Stephanie Garber",
+      "tags": "Fantasy, Enemies to Lovers, Bituin Favorite",
+      "tagline": "Betrayed by love, Evangeline strikes a dangerous deal with the Prince of Hearts — but bargains with fate are never simple.",
+      "goodreads": "https://www.goodreads.com/book/show/55987278-once-upon-a-broken-heart?from_search=true&from_srp=true&qid=AIyQEEzvMH&rank=1"
+    },
+    {
+      "book_title": "Throne of Glass",
+      "book_img": "throneofglass.jpg",
+      "author": "Sarah J. Maas",
+      "tags": "Fantasy, Fae, Bituin Favorite",
+      "tagline": "An assassin wins her freedom by competing for the king — but the kingdom’s real danger lurks beneath the castle.",
+      "goodreads": "https://www.goodreads.com/book/show/76703559-throne-of-glass?ref=nav_sb_ss_1_15"
+    },
+    {
+      "book_title": "The Deal",
+      "book_img": "thedeal.jpg",
+      "author": "Elle Kennedy",
+      "tags": "Contemporary, Fake Dating, College, Hockey",
+      "tagline": "When a hockey player needs tutoring and a smart girl needs fake dating revenge, a simple trade spirals into real feelings.",
+      "goodreads": "https://www.goodreads.com/book/show/45484397-the-deal?from_search=true&from_srp=true&qid=kEQyiV3qgs&rank=1"
+    },
+    {
+      "book_title": "Icebreaker",
+      "book_img": "icebreaker.jpg",
+      "author": "Hannah Grace",
+      "tags": "Contemporary, Enemies to Lovers, College, Hockey",
+      "tagline": "A figure skater and a hockey star are forced to share the rink — and maybe their hearts — when everything they’ve worked for is on the line.",
+      "goodreads": "https://www.goodreads.com/book/show/61767292-icebreaker?from_search=true&from_srp=true&qid=s9xV9GmVhD&rank=1"
+    },
+    {
+      "book_title": "Daughter of Smoke and Bone",
+      "book_img": "daughterof.jpg",
+      "author": "Laini Taylor",
+      "tags": "Fantasy, Supernatural",
+      "tagline": "A blue-haired artist raised by monsters discovers her forgotten past — and a forbidden love that could start a war.",
+      "goodreads": "https://www.goodreads.com/book/show/8490112-daughter-of-smoke-bone?ref=nav_sb_ss_1_26"
+    },
+    {
+      "book_title": "Twisted Love",
+      "book_img": "twistedlove.jpg",
+      "author": "Ana Huang",
+      "tags": "Contemporary, Dark Romance, Fake Dating",
+      "tagline": "Haunted by his past, Alex swore to protect Ava — but the secrets between them could destroy everything they build.",
+      "goodreads": "https://www.goodreads.com/book/show/62057697-twisted-love?from_search=true&from_srp=true&qid=ukTc85W7MO&rank=1"
+    },
+    {
+      "book_title": "Fourth Wing",
+      "book_img": "fourthwing.jpg",
+      "author": "Rebecca Yarros",
+      "tags": "Fantasy, Enemies to Lovers, Bituin Favorite",
+      "tagline": "Forced into a brutal dragon rider academy, Violet must survive impossible trials — or be burned alive trying.",
+      "goodreads": "https://www.goodreads.com/book/show/61431922-fourth-wing?from_search=true&from_srp=true&qid=ABz8UDThnK&rank=1"
+    },
+    {
+      "book_title": "A Court of Thorns and Roses",
+      "book_img": "acotar.jpg",
+      "author": "Sarah J. Maas",
+      "tags": "Fantasy, Fae",
+      "tagline": "To save her family, Feyre kills a faerie wolf — only to be dragged into a deadly world of magic, curses, and unexpected love.",
+      "goodreads": "https://www.goodreads.com/book/show/50659467-a-court-of-thorns-and-roses?ref=nav_sb_ss_1_13"
+    },
+    {
+      "book_title": "Lovelight Farms",
+      "book_img": "lovelightfarms.jpg",
+      "author": "B.K. Borison",
+      "tags": "Contemporary, Fake Dating, Friends to Lovers",
+      "tagline": "Stella fakes a romance with her best friend to save her failing Christmas tree farm — but the feelings quickly become all too real.",
+      "goodreads": "https://www.goodreads.com/book/show/122753311-lovelight-farms?ref=nav_sb_ss_1_15"
     }
   ]
 }
